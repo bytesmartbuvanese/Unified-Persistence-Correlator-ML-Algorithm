@@ -1,0 +1,15 @@
+[project]
+name = "dropout-risk"
+version = "0.1.0"
+description = "Student withdrawal early-warning system"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pydantic>=2.14.2",
+    "scikit-learn>=1.9.1",
+    "uvicorn>=0.54.0",
+    "xgboost>=3.4.1",
+]

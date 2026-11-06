@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Antigravity
+.gemini/
+
+# Large data files (add to git LFS or download separately)
+raw_data/studentVle.csv
+processed_data/vle_daily_aggregation.sqlite
+
+# Generated datasets and feature-engineering outputs
+/processed_data/
+/engineered_data/
+/drop/dataset/unified_persistence_dataset.csv
+/drop/dataset/synthetic_student_data.csv
+
+# Trained models, evaluation results, and diagnostics
+/strict_early_warning_v2/
+/trained_models/
+/unified_model.joblib
+/drop/models/
+/drop/training_results/
+
+# OS
+Thumbs.db
+.DS_Store
